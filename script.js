@@ -45,6 +45,6 @@ console.log(total_popu); //is calculated. Here "acc" is the accumulator and "cv"
 //Solution:
 let usd  = res.filter((ele)=>ele.currencies && ele.currencies.USD); //This line checks if there is currencies and the currencies is USD and 
                  //stores the complete details of those countries that satisfy both the condition in an array named "usd".
-let usd_countries = usd.map((ele)=>ele.name.common); //Using map the common name of the countries in the array "usd" is stored in an array named "usd_countries".
+let usd_countries = usd.map((ele)=>ele.name.common);  //Using map the common name of the countries in the array "usd" is stored in an array named "usd_countries".
 console.log(usd_countries);
 }
